@@ -4,16 +4,13 @@
     <remote name="github" fetch="git://github.com/"/>
 
     <!-- Used to fetch boringssl sources -->
-    <remote name="boringssl" fetch="https://boringssl.googlesource.com"/>
     <default remote="github" revision="master" sync-j="4"  />
 
     <!-- Base build directory - should move to istio -->
     <project path="." name="istio/istio" />
 
     <!-- Istio go -->
-    <project path="go/src/istio.io/api" name="istio/api"/>
     <project path="go/src/istio.io/istio" name="istio/istio" revision="flat-build"/>
-    <project path="go/src/istio.io/istio.github.io" name="istio/istio.github.io"/>
     <project path="go/src/istio.io/pilot" name="istio/pilot"/>
     <project path="go/src/istio.io/mixer"  name="istio/mixer" />
     <project path="go/src/istio.io/auth" name="istio/auth"/>
