@@ -10,7 +10,7 @@
     <project path="." name="istio/istio" />
 
     <!-- Istio go -->
-    <project path="go/src/istio.io/istio" name="istio/istio" revision="flat-build"/>
+    <project path="go/src/istio.io/istio" name="istio/istio"/>
     <project path="go/src/istio.io/pilot" name="istio/pilot"/>
     <project path="go/src/istio.io/mixer"  name="istio/mixer" />
     <project path="go/src/istio.io/auth" name="istio/auth"/>
